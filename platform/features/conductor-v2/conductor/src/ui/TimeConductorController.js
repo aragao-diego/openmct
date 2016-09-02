@@ -100,7 +100,6 @@ define(
 
             // Watch scope for selection of mode or time system by user
             this.$scope.$watch('modeModel.selectedKey', this.setMode);
-            this.$scope.$watch('timeSystem', this.changeTimeSystem);
         };
 
         /**

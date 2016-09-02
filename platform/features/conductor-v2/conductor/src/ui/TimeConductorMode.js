@@ -81,6 +81,7 @@ define(
                         end: 0
                     }
                 };
+
             this.conductor.bounds(defaults.bounds);
             this.deltas(defaults.deltas);
 
